@@ -1,14 +1,12 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-
 .header {
   background-color: #0b1902;
   padding: 56px;
-  
 }
 
 .container {
@@ -16,54 +14,61 @@
   padding-left: 30px;
   padding-right: 30px;
   margin: 0 auto;
- 
-
 }
 
 .header__wrapper {
   display: flex;
   justify-content: space-between;
-   /* background-color: red; */
-   height: 28px;
-   
-  
+}
+
+.btn {
+  border: 2px solid #9de03f;
+  border-radius: 8px;
+  padding: 8px 20px;
+  text-decoration: none;
+  color: #9de03f;
 }
 
 /* hero style */
-.hero{
-    background-image: url(./assets/toti.png);
-    background-repeat: no-repeat;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    background-position: calc(50% + 406px) calc(50% + 150px);
-    background-size: 900px;
-    background-color: #0b1902;
-}
-.hero__info{
-    /* background-color: orange; */
-    width: 600px;
+.hero {
+  background-image: url(./assets/toti.png);
+  background-repeat: no-repeat;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-position: calc(50% + 406px) calc(50% + 150px);
+  background-size: 900px;
+  background-color: #0b1902;
 }
 
-.hero__title{
-    color: #9DE03F;
-    font-size: 70px;
-   font-family: "Archivo Black", sans-serif;
-   display: flex;
-   justify-content: space-around;
+.hero__info {
+  background-color: orange;
+  width: 600px;
 }
 
-.hero__text{
-    font-size: 22px;
-    color: #9DE03F;
-   
+.hero__title {
+  color: #9de03f;
+  font-size: 70px;
+  font-family: "Archivo Black", sans-serif;
+  display: flex;
+  justify-content: space-around;
 }
 
-.hero__link{
-    color: black;
-    background-color: #9DE03F;
-    padding: 16px 24px;
-    border-radius: 8px;
-   text-decoration: none; /* a href czu yoqotw */
+.hero__text {
+  font-size: 22px;
+  color: #9de03f;
+
+  margin: 32px 0 40px 0;
+}
+
+.hero__link {
+  color: black;
+  background-color: #9de03f;
+  padding: 16px 24px;
+  border-radius: 8px;
+
+  display: inline-block;
+
+  text-decoration: none; /* a href czu yoqotw */
 }
 
 /* hero end  */
