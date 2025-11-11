@@ -16,6 +16,11 @@
   margin: 0 auto;
 }
 
+.container__end {
+  width: 1440px;
+  margin: 0;
+}
+
 .header__wrapper {
   display: flex;
   justify-content: space-between;
@@ -24,9 +29,14 @@
 .btn {
   border: 2px solid #9de03f;
   border-radius: 8px;
-  padding: 8px 20px;
+  padding: 16px 24px;
   text-decoration: none;
-  color: #9de03f;
+  color: #0b1902;
+}
+.btn-border {
+  border: 2px solid #9de03f;
+  background-color: #9de03f;
+  color: #0b1902;
 }
 
 /* hero style */
@@ -35,8 +45,8 @@
   background-repeat: no-repeat;
   padding-top: 120px;
   padding-bottom: 120px;
-  background-position: calc(50% + 406px) calc(50% + 150px);
-  background-size: 900px;
+  background-position: calc(50% + 214px) calc(50% + 323px);
+  background-size: 1070px;
   background-color: #0b1902;
 }
 
@@ -49,6 +59,9 @@
   color: #9de03f;
   font-size: 70px;
   font-family: "Archivo Black", sans-serif;
+  font-family: "Gasoek One", sans-serif;
+  font-weight: 500;
+
   display: flex;
   justify-content: space-around;
 }
@@ -72,3 +85,232 @@
 }
 
 /* hero end  */
+
+/* discover */
+
+.discover {
+  padding: 160px 56px;
+}
+
+.discover__wrapper {
+  /* background-color: orange; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.discover__info {
+  width: 500px;
+}
+
+.discover__title {
+  font-family: "Gasoek One", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #0b1902;
+  text-transform: uppercase;
+}
+
+.discover__title-colored {
+  color: #9de03f;
+}
+
+.discover__text {
+  color: #0b1902;
+  font-size: 16px;
+  letter-spacing: 0%;
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+.discover__list {
+  display: flex;
+  width: 500px;
+  gap: 16px;
+  list-style: none;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.discover__item {
+  background-color: wheat;
+  width: 350px;
+  height: 400px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 32px;
+  background-image: url("/assets/waterfall.jpg");
+  background-size: cover;
+  background-position: center;
+  align-content: end;
+  border-radius: 8px;
+}
+li:nth-child(2) {
+  background-image: url(/assets/swimming.jpg);
+}
+
+.discover__subtitle {
+  font-weight: 400;
+  font-family: "Gasoek One", sans-serif;
+  font-size: 32px;
+  color: #9de03f;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.discover_subtext {
+  color: #9de03f;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.way {
+  padding: 80px 56px;
+}
+
+.way__info {
+  width: 1200px;
+  text-align: center;
+}
+
+.way__title {
+  margin: 0 260px;
+  justify-content: center;
+  padding: 32px 13px;
+
+  line-height: 100%;
+  font-weight: 400;
+  font-size: 64px;
+  font-family: "Gasoek One", sans-serif;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.way__title-colored {
+  display: flex;
+  justify-content: center;
+  color: #9de03f;
+}
+
+.way__text {
+  padding: 0px 280px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  align-items: center;
+}
+.btn--center {
+  display: inline-block;
+  margin: 32px auto 0;
+}
+
+.way__img {
+  width: 1104px;
+  height: 457px;
+}
+/* way  end*/
+
+/* wild */
+
+.wild {
+  padding: 112px 0;
+  background-position: center;
+  background-image: url(/assets/wild.jpg);
+  background-repeat: no-repeat;
+}
+
+.wild__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.wild__info {
+  width: 1200px;
+}
+
+.wild__title {
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 100%;
+  text-transform: uppercase;
+  font-family: "Gasoek One", sans-serif;
+  color: white;
+  position: relative;
+  padding: 471px 43px 15px 15px;
+}
+
+.wild__title-colored {
+  color: #9de03f;
+}
+
+.wild__img {
+  width: 350px;
+  height: 197px; /* rasm biroz balandroq */
+  border-radius: 8px;
+  object-fit: cover; /* background-repeat ishlamaydi imgda */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* chiroyli soyali effekt */
+  margin: 22px;
+  margin-right: 116px;
+}
+
+/* end */
+
+.end {
+  background-color: #0b1902;
+  /* width: 1600px;*/
+  font-weight: 906px; 
+   padding: 110px 0;
+  background-position: center;
+}
+
+.end__wrapper {
+  display: flex;
+  justify-content: end;
+  
+}
+.end__logo {
+ margin: 12px;
+  padding: 34px;
+  display: block;
+  margin-left: auto; /* rasmni o‘ng tomonga suradi */
+  margin-right: 630px;
+}
+
+.end__info {
+  display: flex;
+  justify-content: space-between;
+  width: 316px;
+  height: 139px;
+  gap: 56px;
+  
+ 
+ 
+}
+
+.footer__list {
+  width: 950px;
+  height: 139px;
+  color: #9de03f;
+  justify-content: end;
+  align-items: end;
+  list-style: none;
+  font-size: 40px;
+ 
+ 
+}
+
+.footer__end{
+      width: 1217px;
+    height: 280px;
+  color: #9de03f;
+  text-transform: uppercase;
+  justify-content: center;
+  font-size: 263px;
+  margin: 170px 0 0 0;
+  padding: 0;
+  margin: 370px 56px 0
+  m130
+
+
+}
